@@ -1,26 +1,22 @@
 let handler  = async (m, { conn, usedPrefix }) => { 
 conn.reply(m.chat, `
 ╭─˗ˏˋ *INFORMASI OWNER* ´ˎ˗
-│ ✎ _Nama_ : Jarot
-│ ✎ _Sekolah_ : Lulus
-│ ✎ _Umur_ : 17
-│ ✎ _Asal_ : Jawa timur
+│ ✎ _Nama_ : Maulana
+│ ✎ _Sekolah_ : tidak diketahui
+│ ✎ _Umur_ : Rahasia
+│ ✎ _Asal_ : Tanggerang
 │ ✎ _Status_ : Turu deck
-│ ✎ _Official Grup 1_ :
-│    https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL
-│ ✎ _Official Grup 2_ :
-│    https://chat.whatsapp.com/HjRHck1G3WRHOx97fJkdMN
-│ ✎ _Youtube _:
-│    https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ
+│ ✎ _Official Grup_ :
+│    https://chat.whatsapp.com/BRf4zHTYOTjKf8IUhVsrbv
 │ ✎ _Instagram_ : 
-│    https://instagram.com/oscarbotz_
+│    https://instagram.com/lans_store03
 │ ✎ _WhatsApp_ :
-│    wa.me/6285850539404
+│    wa.me/6283132749084
 ╰───────────────────
 `.trim(), m)
 }
 
-handler.help = ['infojarot']
+handler.help = ['infoowner']
 handler.tags = ['main', 'utama']
 handler.command = /^(infojarot)$/i
 
